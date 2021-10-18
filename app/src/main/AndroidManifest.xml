@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TDSTester">
         <activity
+            android:name=".DayGraph"
+            android:exported="true" />
+        <activity
             android:name=".DeveloperInfo"
             android:exported="true"
-            android:parentActivityName=".AboutActivity"/>
+            android:parentActivityName=".AboutActivity" />
         <activity
             android:name=".AboutActivity"
             android:exported="true"
@@ -26,6 +29,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
